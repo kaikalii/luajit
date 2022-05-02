@@ -1,0 +1,13 @@
+[package]
+edition = '2021'
+name = 'lua'
+version = '0.1.0'
+
+[dependencies]
+anyhow = '1'
+clap.features = ['derive']
+clap.version = '3'
+colored = '2'
+ctrlc = '3'
+mlua.features = ['luajit', 'vendored']
+mlua.version = '0.8.0-beta.4'
